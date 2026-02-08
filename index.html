@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Avançado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2>⚡ Dashboard</h2>
+    <nav>
+      <button data-page="home">Home</button>
+      <button data-page="tasks">Tarefas</button>
+      <button data-page="profile">Perfil</button>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <section id="home" class="page active">
+      <h1>Bem-vindo 👋</h1>
+      <br>
+      <br><br>
+      <p>Dashboard moderno usando HTML, CSS e JS avançado.</p>
+    </section>
+
+    <section id="tasks" class="page">
+      <h1>📋 Tarefas</h1>
+      <input id="taskInput" type="text" placeholder="Nova tarefa">
+      <button id="addTask">Adicionar</button>
+      <ul id="taskList"></ul>
+    </section>
+
+    <section id="profile" class="page">
+      <h1>👤 Perfil</h1>
+      <p>Usuário: <strong>Admin</strong></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
